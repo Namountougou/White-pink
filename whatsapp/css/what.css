@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  background-color: #128c7e;
+  z-index: 15;
+  margin-top: -8px;
+}
+.image {
+  display: flex;
+  /* position: absolute; */
+  width: 100vw;
+  height: 100px;
+  margin-left: 25px;
+}
+.image img {
+  margin-left: 96px;
+  width: 39px;
+  height: 40px;
+  margin-top: 30px;
+}
+.image h2 {
+  color: #fff;
+  margin-top: 38px;
+  margin-left: 4px;
+}
+.principal1 {
+  margin-left: 75px;
+  margin-top: 43px;
+}
+.principal {
+  /* margin-left: 75px; */
+  margin-top: 43px;
+}
+.principal2 {
+  /* margin-left: 75px; */
+  margin-top: 35px;
+}
+.principal2 svg {
+  margin-top: 7px;
+}
+.principal2 span {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.fr {
+  margin-top: 35px;
+  margin-left: -30px;
+}
+image p {
+  position: absolute;
+}
+.image p a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 35px;
+  font-size: 17px;
+  padding-top: 30px;
+}
+/* corps */
+.primo {
+  position: relative;
+  display: flex;
+  top: 160px;
+  flex-wrap: wrap;
+  height: 575px;
+  width: 100%;
+}
+
+.texte {
+  width: 394px;
+  height: 575px;
+  margin-left: 200px;
+}
+.texte1 {
+  width: 304px;
+  height: 575px;
+  margin-left: 75px;
+}
+.texte1 img {
+  width: 304px;
+  height: 572px;
+}
+.texte .log {
+  margin-top: 50px;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: left;
+  color: #1c1e21;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.texte p {
+  font-size: 18px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.texte p span {
+  font-size: 16px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.texte p a {
+  text-decoration: none;
+  color: #128c7e;
+}
+
+.android img {
+  width: 30px;
+  height: 25px;
+}
+
+.fa-apple {
+  color: #128c7e;
+}
+/* section2 */
+.prime {
+  height: 950px;
+
+  width: 1340px;
+  justify-content: space-between;
+  position: relative;
+  top: 200px;
+  display: flex;
+}
+.txt {
+  height: 100%;
+  width: 655.5px;
+  background-color: #d8e8ea;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.txt h1 {
+  font-size: 34px;
+  position: relative;
+  top: 45px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: start;
+}
+.txt img {
+  height: 390px;
+  width: 358px;
+  margin-top: 95px;
+}
+.partie {
+  position: relative;
+  height: 332px;
+  width: 527px;
+  text-align: center;
+  margin-left: 60px;
+  top: 15px;
+}
+.partie1 {
+  position: relative;
+  height: 375px;
+  width: 527px;
+  text-align: center;
+  top: 137px;
+  right: 90px;
+}
+.txt1 {
+  background-color: #e7f0e4;
+  height: 100%;
+  width: 655.5px;
+  display: flex;
+  justify-content: center;
+}
+.cercle {
+  height: 350px;
+  width: 350px;
+  background-color: #77d7c8;
+  position: relative;
+  top: 75px;
+  border-radius: 50%;
+}
+.cercle img {
+  margin-top: 135px;
+  margin-left: 50px;
+}
+.chif {
+  text-align: center;
+  font-size: 16px;
+  color: #5e5e5e;
+  margin-bottom: 10px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.chiffre {
+  text-align: center;
+  font-size: 33px;
+  line-height: 41px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.partie1 {
+  justify-content: center;
+}
+.parte {
+  font-size: 19px;
+  line-height: 26px;
+}
+.sss {
+  position: absolute;
+}
+.blanc {
+  position: relative;
+  height: 200px;
+  width: 1334px;
+  top: 220px;
+}
+.blanc a {
+  text-decoration: none;
+  color: #128c7e;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.decouv {
+  border: solid 2px #128c7e;
+  position: relative;
+  justify-content: center;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 40px;
+  top: 70px;
+  left: 550px;
+}
+.foot {
+  position: absolute;
+}
+.afoot {
+  display: flex;
+  position: relative;
+  top: 400px;
+  height: 310px;
+  width: 1334px;
+  justify-content: space-around;
+  background-color: #273443;
+  color: #ffffff;
+}
+.afoot ul li {
+  list-style-type: none;
+}
+.afoot ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+footer section {
+  background-color: #000;
+  height: 66px;
+  width: 1334px;
+  margin-top: 700px;
+}
+.pied {
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  top: 30px;
+  justify-content: space-around;
+
+  /* top: 700px; */
+}
+.confi {
+  margin-right: 20px;
+}
+.copy {
+  margin-left: 20px;
+}
